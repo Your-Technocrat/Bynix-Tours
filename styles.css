@@ -1,0 +1,155 @@
+body{
+  font-family: verdana;
+  /* background-image: url("elephant.png"); */
+}
+
+#h1{
+  font-size: 25px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+h3{
+  color:#FFD23F;
+  border: 1px solid;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.topbar{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  background-color: #77B0AA;
+}
+
+#bookbutton{
+  background-color:#FFD23F;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: small;
+}
+
+.visitingareabox{
+  width: 100%;
+}
+
+#destinationslist{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Kilifi */
+#kilifiRef{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#kilifiTextBox{
+  position: absolute;
+  font-size: 40px;
+  color: #FFD23F;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#kilifiImg{
+  width: 100%;
+}
+
+
+/* Malindi */
+#malindiRef{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+#malindiTextBox{
+  position: absolute;
+  font-size: 40px;
+  color: #FFD23F;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#malindiImg{
+  width: 100%;
+}
+
+#mombasaarea{
+  border: 1px solid;
+  background-color: #77B0AA;
+  width: 100%;
+  margin-top: 20px;
+}
+#mombasaimage{
+  width: 100%;
+}
+#malindiarea{
+  border: 1px solid;
+  background-color: #77B0AA;
+  width: 100%;
+  margin-top: 20px;
+}
+#malindiimage{
+  width: 100%;
+}
+#dianiarea{
+  border: 1px solid;
+  background-color: #77B0AA;
+  width: 100%;
+  margin-top: 20px;
+}
+#dianiimage{
+  width: 100%;
+}
+
+.mombasapackage{
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.packagescontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm{
+  width:100%;
+}
+
+#submitbutton{
+  padding: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#textarea{
+  width: 100%;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 20px 20px 20px 5px;
+  margin-top: 20px;
+}
+
+#palmContainer{
+  width: 100%;
+}
+#palmImage{
+  width: 100%;
+}
